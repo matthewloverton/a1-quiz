@@ -1,0 +1,64 @@
+.title.input{
+    height: 40px;
+    width: 400px;
+    background-color: #353b48;
+    border-radius: 30px;
+    border: 0;  
+    outline: 0;
+    padding: 10px;
+    caret-color:white;
+    color: white;
+}
+
+.container{
+    border-radius: 15px;
+}
+
+.input{
+    height: 40px;
+    width: 400px;
+    background-color: #444a58;
+    border-radius: 30px;
+    border: 0;  
+    outline: 0;
+    padding: 10px;
+    caret-color:white;
+    color: white;
+}
+
+.card{
+    background-color: #353b48;
+    border-radius: 15px;
+}
+
+.choice{
+    cursor: pointer;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    color: #444a58;
+    width: 100%;
+}
+
+.inputfile + label {
+	cursor: pointer;
+}
+
+label.error{
+    margin-left: 5px;
+    color: red;
+    font-size: 10px;
+}
+
+#quizTitle-error{
+    color: #fff !important;
+}
